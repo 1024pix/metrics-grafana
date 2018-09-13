@@ -1,1 +1,1 @@
-web: GF_SERVER_HTTP_PORT=$PORT .grafana/bin/grafana-server
+web: cd ./grafana && GF_SERVER_HTTP_PORT=$PORT ./bin/grafana-server web
